@@ -1,0 +1,550 @@
+* 
+{
+
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+
+ul{
+
+	font-family: 'Big Shoulders Stencil Text', cursive;
+	font-size: 20px;
+
+
+}
+
+h1{
+
+	font-family: 'Big Shoulders Stencil Text', cursive;
+	font-size: 30px;
+	background: -webkit-linear-gradient(#2B85DA, #0FC41D);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;	
+}
+h2
+{
+   font-size: 60px;
+font-family: fantasy;
+  background: -webkit-linear-gradient(#DD27E7, #1D1EDE);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation-duration: 12s !important; 
+}
+
+h3{
+  font-size: 40px;
+  font-family: fantasy;
+  background: -webkit-linear-gradient(#DD27E7, #1D1EDE);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+
+p{
+
+	font-family: 'Glory', sans-serif;
+	font-size: 18px;
+}
+
+.Cabecera {   
+	width: 100%;
+	height: 120px;	
+	background-image: url(../imagenes/camuflado.jpg);		
+}
+
+#SecLogoCabecera{
+  
+  width: 10%;
+  height: 120px;
+  margin-left: 50px;  
+  z-index: 1;
+
+}
+
+.DivLogoCabecera{
+    
+	width: 100%;
+	height: 120px;
+	position: relative;
+
+
+}
+
+.DivLogoCabecera : after {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	content: ' ';
+	background-image:  background: linear-gradient(to right, #333333, #dd1818);
+	width: 100%;
+	height: 100%;
+	filter: blur(5px);
+
+}
+
+.DivLogoCabecera img{
+
+   width: 100%;
+   height: 135px;
+
+}
+#SecLogoNombreCabecera{
+
+	width: 20%;
+	height: 100px;
+	margin-left: 20px;	
+	margin-top: 10px;
+	z-index: 1;
+}
+
+.DivLogoNombreCabecera{
+	width: 100%;
+	height: 100px;	
+	
+
+
+}
+.DivLogoNombreCabecera img{
+	
+	 width: 100%;
+   height: 100px;
+
+}
+
+.SecNav{
+	width: 100%;
+	height: 40px;
+	background: linear-gradient(to bottom, black, grey);
+
+}
+
+.MenuPrincipal{    
+	width: 50%;
+	margin: auto;
+	height: 60px;
+
+
+}
+
+.MenuPrincipal ul{
+
+	list-style: none;
+
+}
+
+.idMenu > li {	
+
+	position: relative;
+	display: inline-block;
+
+
+}
+
+.idMenu > li > a {
+
+	display: block;
+	padding: 15px 20px;
+	color: floralwhite;	
+	text-decoration: none;
+	margin-top: -7px;
+
+}
+
+.idMenu li a:hover{
+   color: goldenrod;
+   transition: all 0.8s;
+}
+
+.iconos{
+
+ width: 100%;
+ height: 142px;
+ margin-top: 28px;
+
+
+ }
+
+ .imagenes {
+width: 100%;
+height: 142px;
+
+
+ }
+
+.SecContenedor{
+
+	width: 80%;
+	height: 1200px ;
+	margin: auto;
+    
+
+}
+.Contenedor{
+
+	width: 100%;
+	height: 1000px;
+	
+}
+
+#SecMenuLateral{
+   
+    margin-top: 45px ;
+    width: 20%;
+    height:1000px ;
+    
+
+
+}
+.MenuLateral{
+
+	width: 80%;
+	height: 1050px;
+	float: left;
+	margin-top: 20px;	
+	
+	
+}
+
+#SecDivPrincipal{
+
+  width: 60%;
+  height: 1000px;
+
+
+}
+.DivPrincipal{
+
+  width: 100%;
+  height: 1150px;
+  margin: auto;
+  margin-top: 20px;
+  
+
+}
+
+.IframePrincipal{
+
+	width: 100%;
+	height: 480px;
+	
+	margin-top: 50px;
+}
+
+#SecAside{
+
+	width: 20%;
+	height: 400px;
+
+}
+
+.Aside {
+
+	width: 75%;
+	height: 400px;
+	margin: auto;
+	margin-top: 90px;
+	
+}
+
+.Footer{
+
+	width: 100%;
+	height: 180px;
+	background: linear-gradient(to top, black, grey);
+	display: flex;
+	
+}
+.Casillas{
+
+	float: left;
+}
+
+.SecFooter{
+	width: 58%;
+	height: 170px;
+	margin: auto;
+	margin-top: 15px;
+
+}
+
+#Derechos{
+	width: 100%;
+	height: 200px;	
+	align-content: center;	
+}
+
+.ParrafoFooter 
+{
+	font-family: 'Big Shoulders Stencil Text', cursive;
+	font-size: 18px;
+	color: floralwhite;
+}
+
+.divIconos{
+
+	width: 100%;
+	height: 50px;	
+}
+
+.iconosRedes{
+
+ /* width: 4%;
+  height: 40px;
+  float: left;  
+  margin-left: 10px;
+  margin-top: 10px;
+  background: grey; 
+  */
+
+
+}
+
+.imagenesRedes{
+  
+  width: 100%;
+  height: 40px;
+  float: left;
+
+}
+
+.textoRedes {
+	margin-top: 20px;
+	text-align: center;
+	font-family: 'Big Shoulders Stencil Text', cursive;
+	font-size: 25px;
+	color: floralwhite;
+	float: left;
+}
+
+.padre
+{
+	width: 100%;
+	height: 180px;
+	display: flex;
+	flex-direction: column;
+}
+
+.hijo-uno
+{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.texto-index
+	{
+	width: 70%;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	}
+
+.hijo-dos
+{
+	width: 100%;
+	height: 100%;
+	display: flex;
+
+
+
+}
+
+.texto-hijo 
+{
+ width: 50%;
+ height:100%;
+ display: flex;
+ flex-direction: row;
+ justify-content: flex-end;
+
+}
+
+.iconos-hijo
+{
+width: 50%;
+height:100%;
+display: flex;
+
+}
+.iconos-redes
+{
+   width: 50%;
+   height: 100%;
+   padding-top: 15px;
+   padding-left: 5px;
+
+}
+
+.iconos-redes a
+{
+	display: inline-flex;
+	justify-content: center;
+	color: #ffffff;
+	width: 48px;
+	height: 48px;
+	text-decoration: none;
+	background: #000000;
+	align-items: center;
+	border-radius: 50%;
+	transition: transform 0.4s;
+}
+
+.iconos-redes a:hover
+{
+	transform: scale(1.3);
+}
+
+.iconos-redes a.facebook
+{
+	background-color: #3b5998;
+	margin-right: 10px;
+	margin-left: 30px ;
+}
+
+.iconos-redes a.instagram
+{
+	margin-right: 10px;
+	background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+}
+
+.iconos-redes a.twitter
+{
+
+	background-color: #00acee;
+}
+
+/*Esta sección es para Noticias Gamer*/
+
+
+.ImagenHalo
+{
+	margin: auto;
+	margin-top: 20px;
+	width: 100%;
+	height: 500px;
+	background: grey;
+	background-image: url(../imagenes/halo2.jpg);
+	-webkit-background-size: 100%;
+}
+.adsen
+{
+	width: 100%;
+	height: 320px;
+}
+
+.texto
+{
+	width: 100%;
+	height: 180px;
+}
+.separador
+{
+	width: 100%;
+	height: 40px;
+ background: -webkit-linear-gradient(#2B85DA, #7686fd);
+	margin-top: 20px;
+}
+
+.iframe
+{
+	margin: auto;
+	margin-top: 60px;	
+}
+
+/*Sección para el formulario*/
+
+body{
+   
+   background-color: #D3DBD5;
+    
+}
+
+.form-register
+{
+
+	width:400px;
+	background:#89928B;
+	padding:30px;
+	margin: auto;
+	margin-top: 100px;
+	border-radius: 5px;
+	font-family: 'calibri';
+	color: white;
+	box-shadow: 7px 13px 37px #383A39;
+
+}
+
+
+.form-register h4
+{
+	font-size: 22px;
+	margin-bottom: 20px;
+
+
+}
+
+.controls
+{
+	width: 100%;
+	background: #BBCFC0;
+	padding: 15px;
+	border-radius: 5px;
+	margin-bottom: 16px;
+	border:2px solid #394E3E;
+	font-size: 15px;
+
+
+}
+
+.form-register p{
+	height: 35px;
+	text-align: center;
+    font-size: 17px;
+    line-height: 35px;
+
+}
+
+.form-register a
+{
+
+	color:white;
+    text-decoration: none;
+}
+
+.form-register a : hover
+
+{
+	color:white;
+	text-decoration: underline;
+}
+
+.form-register  .botons
+{
+	width: 100%;
+	background: #BBCFC0;
+	border:none;
+	padding: 12px;
+	color:#506354;
+  margin:16px 0;
+  font-size: 16px;
+}
+
+/* Evolución de los shooter*/
+
+#SecDivParrafos {
+
+	width: 60%;
+  height: 5800px;  
+
+}
+
+.DivParrafos{
+  width: 100%;
+  height: 5800px; 
+
+}
+
